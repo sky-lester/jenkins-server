@@ -56,6 +56,12 @@ git clone git@github.com:sky-lester/jenkins-server.git
 docker build -t myjenkins-blueocean:2.462.3-1 .
 ```
 
+## Create jenkins network
+
+```
+docker network create jenkins
+```
+
 ## Run the container
 
 ```
