@@ -37,6 +37,11 @@ ssh-keygen -t ed25519 -C "jenkins@ubuntu-server"
 cat /home/ubuntu/.ssh/id_ed25519.pub
 ```
 
+## Logout and login
+
+```
+logout
+```
 
 
 ## Git clone this repository
