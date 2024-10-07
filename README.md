@@ -25,6 +25,20 @@ sudo apt install git -y
 
 ```
 
+## Create an SSH key
+
+```
+ssh-keygen -t ed25519 -C "jenkins@ubuntu-server"
+```
+
+## Copy the pub and save it to the deploy keys
+
+```
+cat /home/ubuntu/.ssh/id_ed25519.pub
+```
+
+
+
 ## Git clone this repository
 
 ```
