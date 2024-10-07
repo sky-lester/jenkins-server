@@ -74,6 +74,11 @@ docker run --name jenkins-blueocean --restart=on-failure --detach \
   myjenkins-blueocean:2.462.3-1
 ```
 
+## Check jenkins initial admin password
+
+```
+docker exec -it jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword
+```
 
 
 Reference: [jenkins on docker](https://www.jenkins.io/doc/book/installing/docker/)
