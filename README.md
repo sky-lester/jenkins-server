@@ -155,3 +155,27 @@ sudo systemctl restart docker
 ```
 
 Reference: [jenkins on linux](https://www.jenkins.io/doc/book/installing/linux/)
+
+
+
+## Create an SSH Key inside and copy to Gitlab
+```
+ssh -i key.pem ubuntu@[IP_ADDRESS]
+```
+```
+sudo su - jenkins
+```
+
+```
+ssh-keygen -t rsa
+```
+
+Copy the id_rsa.pub to Gitlab
+
+Add the id_rsa into jenkins credentials
+
+## Add gitlab to knownhost
+
+```
+ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+```
