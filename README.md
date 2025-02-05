@@ -157,6 +157,19 @@ sudo systemctl status jenkins
 sudo systemctl restart docker
 ```
 
+### Install AWS CLI
+
+```
+sudo apt install unzip curl -y
+
+curl -s "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip
+
+sudo apt update
+sudo ./aws/install
+sudo apt install jq -y
+```
+
+
 Reference: [jenkins on linux](https://www.jenkins.io/doc/book/installing/linux/)
 
 
