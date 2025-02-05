@@ -182,3 +182,9 @@ Add the id_rsa into jenkins credentials
 ```
 ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
 ```
+
+## Plugins:
+
+- Pipeline Utility Steps
+
+- Gitlab
