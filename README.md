@@ -169,6 +169,12 @@ sudo ./aws/install
 sudo apt install jq -y
 ```
 
+### Reload
+```
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+```
+
 
 Reference: [jenkins on linux](https://www.jenkins.io/doc/book/installing/linux/)
 
