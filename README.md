@@ -184,6 +184,11 @@ Reference: [jenkins on linux](https://www.jenkins.io/doc/book/installing/linux/)
 wget -O install_jenkins.sh https://raw.githubusercontent.com/sky-lester/jenkins-server/refs/heads/main/install_jenkins.sh && sudo chmod +x install_jenkins.sh
 ```
 
+### Run the script
+
+```
+sudo ./install_jenkins.sh
+```
 
 ## Create an SSH Key inside and copy to Gitlab
 ```
